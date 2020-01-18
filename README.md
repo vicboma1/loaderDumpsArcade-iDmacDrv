@@ -1,2 +1,2 @@
 # loaderDumpsArcade-iDmacDrv
-Empty librery that acts as a mockup for NESICAxLive
+Library that acts as a mockup for NESICAxLive
