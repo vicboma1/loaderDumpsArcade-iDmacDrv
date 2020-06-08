@@ -19,7 +19,7 @@ __declspec (dllexport) int iDmacDrvDmaRead(int a1, LPVOID lp, UINT_PTR ucb, LPVO
 	return 0;
 }
 
-__declspec (dllexport) int iDmacDrvDmaWrite(int a1, void *lp, UINT_PTR ucb, LPVOID a4)
+__declspec (dllexport) int iDmacDrvDmaWrite(int a1, LPVOID lp, UINT_PTR ucb, LPVOID a4)
 {
 	return 0;
 }
@@ -30,6 +30,16 @@ __declspec (dllexport) int iDmacDrvRegisterWrite(int a1, DWORD command, int data
 }
 
 __declspec (dllexport) int iDmacDrvRegisterRead(int a1, DWORD command, LPVOID ret_pointer, LPVOID a4)
+{
+	return 0;
+}
+
+__declspec (dllexport) int iDmacDrvRegisterBufferRead(int a1, DWORD BytesReturned, LPVOID lp, UINT_PTR ucb, LPVOID a5)
+{
+	return 0;
+}
+
+__declspec (dllexport) int iDmacDrvRegisterBufferWrite(int a1, DWORD BytesReturned, LPVOID lp, UINT_PTR ucb, LPVOID a5)
 {
 	return 0;
 }
