@@ -43,3 +43,9 @@ __declspec (dllexport) int iDmacDrvRegisterBufferWrite(int a1, DWORD BytesReturn
 {
 	return 0;
 }
+
+__declspec (dllexport) int iDmacDrvProgramDownload()
+{
+	return 0;
+}
+
